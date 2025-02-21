@@ -1,0 +1,151 @@
+body {
+  color: white;
+  background-image: url("background.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  margin: 20px 0;
+}
+
+
+.btn1 {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+  margin-left: 350px;
+
+  background: #6e6d70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+    0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #dfdedf;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+h2 {
+  margin-top: 70vh;
+  margin-left: 3vw;
+  margin-right: 55vw;
+  font-size: 2em;
+  text-align: bottom;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-family: fugaz one;
+}
+
+.second {
+  background-color: white;
+}
+
+/* For the second section (images and buttons) */
+.second {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center everything */
+  justify-content: center;
+  padding: 10px;
+}
+
+/* For the images */
+.second img {
+  width: 90%; /* Make images responsive */
+  max-width: 300px; /* Limit the maximum width of the images */
+  padding: 30px;
+  margin-bottom: 10px; /* Space between images */
+}
+
+.project-images{
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center everything */
+  justify-content: center;
+  padding: 10px;
+}
+
+/* For the buttons in the second section */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 250px; /* Space between buttons */
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+  background: #6e6d70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+    0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #dfdedf;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #5a5a5a; /* Darken the button on hover */
+}
+
+h3 {
+  font-size: 2em;
+  background-color: white;
+  color: black;
+  height: 10vh;
+  margin-left: 40%;
+  margin-top: 10vh;
+}
+
+
+footer {
+  background-color: white;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.foot {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.name {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center everything */
+  justify-content: center;
+}
+
+.foot {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center everything */
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.icons i {
+  margin-right: 50px;
+  margin-left: 280px;
+  font-size: 30px;
+}
